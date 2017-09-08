@@ -18,7 +18,7 @@ $colorsDatabases[
 
 */
 
-$colorsDatabases = array (
+$colorsDatabases = array(
 
 'black' => array('article' => array(
 'section1' =>
@@ -33,9 +33,10 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
-) /*END array section*/
+) /*END array section*/),
 
-, 'proprietes' => "0,0,0",'prix' => "20 000 ฿") /*END color*/,
+'proprietes' => array (0, 0, 0),'prix' => "20 000 ฿" /*END article*/),
+
 
 
 'white' => array('article' => array(
@@ -53,8 +54,10 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
+) /*END array section*/),
 
-, 'proprietes' => "255,255,255",'prix' => "50 000 ฿") /*END color*/,
+'proprietes' => array (255, 255, 255),'prix' => "50 000 ฿" /*END article*/),
+
 
 
 'grey' => array('article' => array(
@@ -70,9 +73,10 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
-) /*END array section*/
+) /*END array section*/),
 
-, 'proprietes' => "128,128,128",'prix' => "5 000 ฿") /*END color*/,
+'proprietes' => array (128, 128, 128),'prix' => "5 000 ฿" /*END article*/),
+
 
 
 'red' => array('article' => array(
@@ -88,9 +92,10 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
-) /*END array section*/
+) /*END array section*/),
 
-, 'proprietes' => "255,0,0",'prix' => " 30 000 ฿") /*END color*/,
+'proprietes' => array (255, 0, 0),'prix' => " 30 000 ฿" /*END article*/),
+
 
 
 'orange' => array('article' => array(
@@ -106,9 +111,10 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
-) /*END array section*/
+) /*END array section*/),
 
-, 'proprietes' => "255,156,0",'prix' => "30 000 ฿") /*END color*/,
+'proprietes' => array (255, 156, 0),'prix' => "30 000 ฿" /*END article*/),
+
 
 
 'yellow' => array('article' => array(
@@ -124,9 +130,10 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
-) /*END array section*/
+) /*END array section*/),
 
-, 'proprietes' => "255,255,0",'prix' => "20 000 ฿") /*END color*/,
+'proprietes' => array (255, 255, 0),'prix' => "20 000 ฿" /*END article*/),
+
 
 
 'green' => array('article' => array(
@@ -142,8 +149,10 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
+) /*END array section*/),
 
-, 'proprietes' => "0,255,0",'prix' => "20 000 ฿") /*END color*/,
+'proprietes' => array (0, 255, 0),'prix' => "20 000 ฿" /*END article*/),
+
 
 
 'blue' => array('article' => array(
@@ -159,13 +168,15 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
-) /*END array section*/
+) /*END array section*/),
 
-, 'proprietes' => "0,0,255",'prix' => "30 000 ฿") /*END color*/,
+'proprietes' => array (0, 0, 255),'prix' => "30 000 ฿" /*END article*/),
+
 
 
 'violet' => array('article' =>  array(
 'section1' =>
+array(/*ARRAY SECTION*/
 "Le violet est un champ chromatique qui désigne des couleurs situées sur le cercle chromatique entre les pourpres et les bleus."/*END para*/
 ) /*END array section*/,
 'section2' =>
@@ -175,8 +186,9 @@ array(/*ARRAY SECTION*/
 "Integer blandit lorem et velit accumsan porttitor. Maecenas eleifend, sapien vel consequat tempus, mauris augue laoreet nisi, et semper quam sem eu libero. Ut viverra pharetra elit tincidunt porttitor. Vestibulum ante ipsum, molestie sed orci nec, lobortis lacinia lacus. Nunc purus metus, accumsan quis ornare pretium, dictum a sapien. Nam eget urna ut felis accumsan vehicula eu eu ante. Pellentesque vitae libero est. Quisque felis metus, imperdiet eget elit non, fermentum fermentum est. Praesent eget euismod nibh. Sed consectetur congue justo, vel feugiat eros varius a. Donec dignissim sem consequat lorem iaculis scelerisque.",
 "Fusce posuere bibendum nunc vel suscipit. Suspendisse non turpis eget enim mollis rutrum. Pellentesque id faucibus urna. Nulla felis quam, feugiat a venenatis ac, pretium gravida eros. Integer ultricies elit vitae enim pellentesque imperdiet. Sed tristique varius justo quis ultricies. Quisque placerat lobortis arcu eget consequat. Donec nec dolor metus.",
 "Nulla consectetur vel quam et convallis. Vivamus vitae lectus ligula. Duis congue augue lectus, in porttitor purus semper id. Aliquam tincidunt dolor in vulputate imperdiet. Sed placerat neque in nulla suscipit consequat egestas a arcu. Morbi sollicitudin mattis sem ut volutpat. Vestibulum malesuada lectus at risus malesuada tincidunt. Sed commodo, nisi sit amet tempor pretium, neque tellus sagittis dui, tempus semper lacus risus vitae lectus. Praesent vitae est felis."/*END para*/
-) /*END array section*/
+) /*END array section*/),
 
-, 'proprietes' => "238,130,238",'prix' => "5 000 ฿")
+'proprietes' => array (238, 130, 238),'prix' => "5 000 ฿" /*END article*/)
+
 ); //END BDD
 
