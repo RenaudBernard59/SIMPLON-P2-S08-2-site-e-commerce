@@ -129,6 +129,17 @@ $listeArticles = array (
 "
 );
 
+$colorsDatabases = array (
+'black' => array('article' => "###", 'proprietes' => "",'prix' => "20 000 ฿"),
+'white' => array('article' => "###", 'proprietes' => "",'prix' => "50 000 ฿"),
+'grey' => array('article' => "###", 'proprietes' => "",'prix' => "5 000 ฿"),
+'red' => array('article' => "###", 'proprietes' => "",'prix' => " 30 000 ฿"),
+'orange' => array('article' => "###", 'proprietes' => "",'prix' => "30 000 ฿"),
+'yellow' => array('article' => "###", 'proprietes' => "",'prix' => "20 000 ฿"),
+'green' => array('article' => "###", 'proprietes' => "",'prix' => "20 000 ฿"),
+'blue' => array('article' => "###", 'proprietes' => "",'prix' => "30 000 ฿"),
+'violet' => array('article' => "###", 'proprietes' => "",'prix' => "5 000 ฿")
+);
 
 /*Regarder si la couleur possède un article*/
 foreach($listeArticles as $cle => $element) {
@@ -169,10 +180,17 @@ if ($_GET['color'] && $colorExist) {
           <div class="row">
             <article class="col-md-10">
               <h2>Description</h2>
-		<?php echo 'content'; ?>
-            </article>
+		<?php echo $colorsDatabases[$_GET['color']]['article'];?>
+	    </article>
             <aside class="col-md-2">
-              Prix : <?php echo '5000 &btc;'; ?> 
+		<figure><?php
+		//header ("Content-type: image/png");
+		?>
+		<figcaption>Aperçu de la couleur</figcaption>
+		<figure>
+              	<p>Prix :
+		<?php echo $colorsDatabases[$_GET['color']]['prix'];?></p>
+	<button type="button" class="btn btn-primary btn-lg">Ajouter au panier</button>
             </aside>
           </div>
         </section>
