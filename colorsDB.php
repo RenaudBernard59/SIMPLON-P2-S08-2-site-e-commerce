@@ -10,7 +10,7 @@ $colorsDatabases[
 >>>>>P multiples[].
 ].END s2
 ];END art
->>proprietes = valeur;
+>>proprietes = [0, 1, 2];
 >>prix = valeur.
 ];END cDB
 

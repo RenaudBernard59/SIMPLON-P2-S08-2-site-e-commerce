@@ -22,13 +22,12 @@ $avaiableColors = array (
 Définitons des fonctions*/
 
 function imgGenerator($colorsChoose) {
-("Content-type: image/png");
+header ("Content-type: image/png");
 $image = imagecreate(300,150);
 
-$colorBg = imagecolorallocate($image, $colorsDatabases[$colorsChoose]['proprietes'][0], $colorsDatabases[$colorsChoose]['proprietes'][1], $colorsDatabases[$colorsChoose]['proprietes'][2]); // Le fond de la couleur
+$colorBg = imagecolorallocate($image, ($colorsDatabases[$colorsChoose]['proprietes'][0]), ($colorsDatabases[$colorsChoose]['proprietes'][1]), ($colorsDatabases[$colorsChoose]['proprietes'][2])); // Le fond de la couleur
 $colorCp = imagecolorallocate($image, 47, 79, 79);// couleur copyright
-
-imagestring($image, 4, 35, 15, "Copyright BuycolorDotCom", $colorCp);
+imagestring($image, 15, 35, 15, "Copyright BuycolorDotCom", $colorCp);
 
 imagepng($image, "img/". $colorsChoose . ".png");
 
@@ -38,9 +37,11 @@ imagepng($image, "img/". $colorsChoose . ".png");
 /*================================================
 Appel des fonctions*/
 
-for ($i = 0; $i <= (count($avaiableColors) +1); $i++) {
-imgGenerator($avaiableColors[$i]);
-echo "<p>" . $avaiableColors[$i] . " + " . $colorsDatabases[$avaiableColors[$i]]['proprietes'] . " as saved</p>";
+for ($i = 0; $i < (count($avaiableColors)); $i++) {
+$colorsChoose = $avaiableColors[$i];
+imgGenerator($colorsChoose);
+echo "<p>" . $avaiableColors[$i] . " + " .
+$colorsDatabases[$colorsChoose]['proprietes'][0] . ", " . $colorsDatabases[$colorsChoose]['proprietes'][1] . ", " . $colorsDatabases[$colorsChoose]['proprietes'][2]. ", " . " as saved</p>";
 }
 //END
 
