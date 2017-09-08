@@ -1,5 +1,7 @@
 <?php
 
+
+
 $avaiableColors = array (
     'black',
     'white',
@@ -14,18 +16,22 @@ $avaiableColors = array (
 );
 
 
-function imgGenerator($colorArray) {
+function imgGenerator($colorsChoose) {
 ("Content-type: image/png");
 $image = imagecreate(300,150);
 
-$colorArray = imagecolorallocate($image, 255, 128, 0); // Le fond de la couleur
-$darkslategray = imagecolorallocate($image, 47, 79, 79);// couleur copy
+$colorArray = imagecolorallocate($image, $colorsDatabases[$colorsChoose]['proprietes']; // Le fond de la couleur
+$darkslategray = imagecolorallocate($image, 47, 79, 79);// couleur copyright
 
-imagestring($image, 4, 35, 15, "Copyright buycolorDotCom", $darkslategray);
+imagestring($image, 4, 35, 15, "Copyright BuycolorDotCom", $darkslategray);
 
 imagepng($image, "img/". $colorArray . ".png");
 
 }
 
+for ($i = 0, $i > (count($avaiableColors) +1, $i++) {
+imgGenerator($avaiableColors[$i]);
+echo "<p>" . $avaiableColors[$i] . " as saved</p>";
 
+}
 
