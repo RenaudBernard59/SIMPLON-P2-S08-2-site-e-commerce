@@ -25,7 +25,7 @@ function imgGenerator($colorsChoose) {
 ("Content-type: image/png");
 $image = imagecreate(300,150);
 
-$colorBg = imagecolorallocate($image, $colorsDatabases[$colorsChoose]['proprietes']); // Le fond de la couleur
+$colorBg = imagecolorallocate($image, $colorsDatabases[$colorsChoose]['proprietes'][0], $colorsDatabases[$colorsChoose]['proprietes'][1], $colorsDatabases[$colorsChoose]['proprietes'][2]); // Le fond de la couleur
 $colorCp = imagecolorallocate($image, 47, 79, 79);// couleur copyright
 
 imagestring($image, 4, 35, 15, "Copyright BuycolorDotCom", $colorCp);
