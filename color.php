@@ -152,13 +152,17 @@ foreach($listeArticles as $cle => $element) {
 }
 }//END tableColor
 
-
-
 if ($_GET['color'] && $colorExist) {
 /*Si paramètre OK on affiche la page */
-?>
 
-<?php include('header.php');?>
+/*=========================================================================
+======
+=.......................... Inclusion de la page
+======
+==========================================================================*/
+?>
+<?php
+ include('header.php');?>
     <div class="container">
       <div class="row">
  	<nav class="col-sm-2">
@@ -183,9 +187,8 @@ if ($_GET['color'] && $colorExist) {
 		<?php echo $colorsDatabases[$_GET['color']]['article'];?>
 	    </article>
             <aside class="col-md-2">
-		<figure><?php
-		//header ("Content-type: image/png");
-		?>
+		<figure>
+		<img src="img/<?php echo $_GET['color']; ?>.png" alt="<?php $_GET['color']; ?>" />
 		<figcaption>Aperçu de la couleur</figcaption>
 		<figure>
               	<p>Prix :
@@ -206,7 +209,14 @@ if ($_GET['color'] && $colorExist) {
     </div>
 
       <hr>
-<?php include('footer.php');?>
+<?php include('footer.php');
+
+/*=========================================================================
+======
+=.......................... FIN Inclusion de la page
+======
+==========================================================================*/
+?>
 
 <?php
 /*Si problème paramètre*/
