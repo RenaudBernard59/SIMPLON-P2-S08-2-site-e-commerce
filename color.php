@@ -130,15 +130,15 @@ $listeArticles = array (
 );
 
 $colorsDatabases = array (
-'black' => array('article' => "###", 'proprietes' => "",'prix' => "20 000 ฿"),
-'white' => array('article' => "###", 'proprietes' => "",'prix' => "50 000 ฿"),
-'grey' => array('article' => "###", 'proprietes' => "",'prix' => "5 000 ฿"),
-'red' => array('article' => "###", 'proprietes' => "",'prix' => " 30 000 ฿"),
-'orange' => array('article' => "###", 'proprietes' => "",'prix' => "30 000 ฿"),
-'yellow' => array('article' => "###", 'proprietes' => "",'prix' => "20 000 ฿"),
-'green' => array('article' => "###", 'proprietes' => "",'prix' => "20 000 ฿"),
-'blue' => array('article' => "###", 'proprietes' => "",'prix' => "30 000 ฿"),
-'violet' => array('article' => "###", 'proprietes' => "",'prix' => "5 000 ฿")
+'black' => array('article' => "###", 'proprietes' => "0,0,0",'prix' => "20 000 ฿"),
+'white' => array('article' => "###", 'proprietes' => "255,255,255",'prix' => "50 000 ฿"),
+'grey' => array('article' => "###", 'proprietes' => "128,128,128",'prix' => "5 000 ฿"),
+'red' => array('article' => "###", 'proprietes' => "255,0,0",'prix' => " 30 000 ฿"),
+'orange' => array('article' => "###", 'proprietes' => "255,156,0",'prix' => "30 000 ฿"),
+'yellow' => array('article' => "###", 'proprietes' => "255,255,0",'prix' => "20 000 ฿"),
+'green' => array('article' => "###", 'proprietes' => "0,255,0",'prix' => "20 000 ฿"),
+'blue' => array('article' => "###", 'proprietes' => "0,0,255",'prix' => "30 000 ฿"),
+'violet' => array('article' => "###", 'proprietes' => "238,130,238",'prix' => "5 000 ฿")
 );
 
 /*Regarder si la couleur possède un article*/
