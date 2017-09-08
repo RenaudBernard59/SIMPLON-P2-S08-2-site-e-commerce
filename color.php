@@ -127,7 +127,7 @@ $colorsDatabases = array (
 	);
 
 /*Regarder si la couleur possède un article*/
-foreach($listeArticles as $cle => $element) {
+foreach($colorsDatabases as $cle => $element) {
 	if (isset($_GET) == $cle) {
 	$colorExist = true;
 } else {
@@ -151,7 +151,7 @@ if ($_GET['color'] && $colorExist) {
     <div class="container">
       <div class="row">
  	<nav class="col-sm-2">
-          <h2>Menu</>
+          <h2>Menu</h2>
 		<ul>
 		<li><a href="color.php?color=black">black</a></li>
 		<li><a href="color.php?color=white">white</a></li>
@@ -175,7 +175,7 @@ if ($_GET['color'] && $colorExist) {
 		<figure>
 		<img src="img/<?php echo $_GET['color']; ?>.png" alt="<?php $_GET['color']; ?>" />
 		<figcaption>Aperçu de la couleur</figcaption>
-		<figure>
+		</figure>
               	<p>Prix :
 		<?php echo $colorsDatabases[$_GET['color']]['prix'];?></p>
 	<button type="button" class="btn btn-primary btn-lg">Ajouter au panier</button>
@@ -183,15 +183,6 @@ if ($_GET['color'] && $colorExist) {
           </div>
         </section>
       </div>
-
-
-
-
-<?php echo $_GET['color'];?>
-
-
-     </div>
-    </div>
 
       <hr>
 <?php include('footer.php');
