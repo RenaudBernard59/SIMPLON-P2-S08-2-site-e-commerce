@@ -15,7 +15,7 @@ function indexGenrator($indexDatabases, $selectedColors) {
   echo '<img src="img/' . $selectedColors . '.png" alt="' . $selectedColors . '" class="col-md-12" />'; 
   echo "<p>" . $indexDatabases[$selectedColors]['article'][0] . "</p>";
   echo "<p>" . $indexDatabases[$selectedColors]['article'][1] . '<srong>' . $indexDatabases[$selectedColors]['article'][2] . "</strong></p>";
-  echo '<p><a class="btn btn-default" href="color.php?color=' . [$selectedColors] . '" role="button">View details &raquo;</a></p>';
+  echo '<p><a class="btn btn-default" href="color.php?color=' . $selectedColors . '" role="button">View details &raquo;</a></p>';
   echo  "</div>";
 
 }//END indexGenrator
